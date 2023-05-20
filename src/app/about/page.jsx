@@ -1,9 +1,14 @@
+import Link from 'next/link'
 import React from 'react'
 
 const About = () => {
   return (
     <div className='max-w-6xl mx-auto space-y-4 p-4'>
+        <div className='flex justify-between'>
         <h1 className='text-4xl font-medium text-amber-600'>About</h1>
+        <Link href='/about-developer'>
+        <h1 className='text-2xl font-medium text-amber-600'>About the developer</h1></Link>
+        </div>
 
         <p className='py-7'>
         At <span className='text-md text-amber-500 font-medium'>IMDB</span>, we are passionate about movies and dedicated to providing you with the latest news, reviews, and recommendations from the world of cinema. Our mission is to be your go-to source for all things movies, offering a platform where film enthusiasts can come together, share their thoughts, and discover new cinematic gems
