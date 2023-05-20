@@ -15,7 +15,7 @@ const page = () => {
     <Image style={{maxWidth:"100%",height:"80%"}} width={500} height={200} placeholder='blur' alt='image not available' blurDataURL='spinner.svg' className='rounded:lg object-cover' src={`/IMG-0119.JPG`}></Image>
        <div className="">
         <h2 className='text-amber-500 pb-1'>About Me</h2>
-Hello! I'm <span className='text-amber-500'>Gideon Nti Boateng</span>, a dedicated Backend Developer with a focus on building robust and scalable web applications. With expertise in NestJS, ExpressJS, MongoDB, and PostgreSQL, I am passionate about crafting efficient and reliable backend solutions.
+Hello! I&apos;m <span className='text-amber-500'>Gideon Nti Boateng</span>, a dedicated Backend Developer with a focus on building robust and scalable web applications. With expertise in NestJS, ExpressJS, MongoDB, and PostgreSQL, I am passionate about crafting efficient and reliable backend solutions.
 
  <h2 className='text-amber-500 mb-1 mt-2'>Professional Experience</h2> 
 
